@@ -1,0 +1,148 @@
+/*****************************************************************************
+ * DECOHack Patch File
+ * Main
+ * Matthew DeCalzadilla
+ ****************************************************************************/
+
+#include <mbf21>
+#include <friendly>
+
+misc
+{
+	initialBullets 15
+	initialHealth 50
+}
+
+// Bullets
+ammo 0
+{
+	max 30
+}
+
+// Shells
+ammo 1
+{
+	max 18
+}
+
+// Cells
+ammo 2
+{
+	max 120
+}
+
+// Rockets
+ammo 3
+{
+	max 15
+}
+
+// Pipe
+weapon 7
+{
+	States
+	{
+		Fire:
+			SAWG A 1 A_WeaponMeleeAttack(6,10,10.0, "SKESWG",33.0)
+	}
+}
+
+thing 2 "Former Human"
+{
+	dropitem 0
+
+	States
+	{
+		Death:
+			POSS H 5
+			POSS I 5 A_Scream
+			POSS J 5 A_Fall
+			POSS K 5
+			POSS L 300
+			POSS K 5 A_PlaySound("SLOP",0)
+			POSS JIH 5
+			POSS H 0 A_SpawnObject(2,0.0,0.0,0.0,0.0,0.0,0.0,0.0)
+			Stop
+		Raise:
+			SPOS TSRQPONM 5
+			Goto See
+	}
+}
+
+thing 3 "Former Sergeant"
+{
+	dropitem 0
+
+	States
+	{
+		Death:
+			SPOS H 5
+			SPOS I 5 A_Scream
+			SPOS J 5 A_Fall
+			SPOS K 5
+			SPOS L 175
+			SPOS K 5 A_PlaySound("SLOP",0)
+			SPOS JIH 5
+			SPOS H 0 A_SpawnObject(3,0.0,0.0,0.0,0.0,0.0,0.0,0.0)
+			Stop
+		Raise:
+			SPOS TSRQPONM 5
+			Goto See
+	}
+}
+
+// Revenant
+thing 6
+{
+	States
+	{
+		Death:
+			SKEL LM 7
+			SKEL N 7 A_Scream
+			SKEL O 7 A_Fall
+			SKEL P 7
+			SKEL Q 875
+			SKEL Q 5 A_PlaySound("SLOP",0)
+			SKEL PONML 5
+			SKEL L 0 A_SpawnObject(6,0.0,0.0,0.0,0.0,0.0,0.0,0.0)
+			Stop
+	}
+}
+
+// Demon
+thing 13
+{
+	States
+	{
+		Death:
+			SARG I 8
+			SARG J 8 A_Scream
+			SARG K 4
+			SARG L 4 A_Fall
+			SARG M 4
+			SARG N 300
+			SARG N 5 A_PlaySound("SLOP",0)
+			SARG MLKJI 5
+			SARG I 0 A_SpawnObject(13,0.0,0.0,0.0,0.0,0.0,0.0,0.0)
+			Stop
+	}
+}
+
+// Imp
+thing 12
+{
+	States
+	{
+		Death:
+			TROO I 8
+			TROO J 8 A_Scream
+			TROO K 6
+			TROO L 6 A_Fall
+			TROO M 150
+			TROO M 8 A_PlaySound("SLOP",0)
+			TROO L 8
+			TROO KJI 6
+			TROO I 0 A_SpawnObject(12,0.0,0.0,0.0,0.0,0.0,0.0,0.0)
+			Stop
+	}
+}

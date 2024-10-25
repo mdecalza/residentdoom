@@ -1,0 +1,4 @@
+Code: Amuscaria, Ghastly (ZScript conversion)
+GLDefs: Keksdose
+Sounds: Amuscaria, Raven Software
+Sprites: Amuscaria, 3D Realms

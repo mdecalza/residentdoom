@@ -1,0 +1,9 @@
+RESIDENT DOOM
+RESOURCE CREDITS
+
+
+-= Palette =-
+
+PLAYPAL         DiR
+COLORMAP        DiR
+(from OPal.wad)
