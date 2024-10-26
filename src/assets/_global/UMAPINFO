@@ -1,0 +1,17 @@
+map MAP01
+{
+	levelname = ""  // MIDI: Aquifer by Snaxalotl
+	author = "Moustachio"
+	label = clear
+	partime = 0
+
+	episode = clear
+	episode = "M_CAMP", "Resident DOOM", "r"
+
+	nointermission = true
+	intertext = "You've escaped the house!"
+	intertextsecret = "You've escaped the house... in an alternate way!"		
+	interbackdrop = "FLAT10"
+
+	endgame = true
+}

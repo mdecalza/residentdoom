@@ -37,6 +37,65 @@ ammo 3
 	max 15
 }
 
+strings
+{
+	GOTARMOR "This armor should keep me safe."
+	GOTMEGA "Now this is some heavy-duty armor!"
+	GOTHTHBONUS "This strange potion numbs the pain a little..."
+	GOTARMBONUS "I can repair my armor with this scrap."
+	GOTSTIM "A first aid kit!"
+	GOTMEDINEED "Thought I was a goner for sure..."
+	GOTMEDIKIT "A surgical kit!"
+	GOTSUPER "Woah! I feel younger!"
+	GOTBLUECARD "A blue keycard."
+	GOTYELWCARD "A yellow keycard."
+	GOTREDCARD "A red keycard."
+	GOTBLUESKUL "A glowing blue skull."
+	GOTYELWSKUL "A glowing yellow skull."
+	GOTREDSKULL "A glowing red skull."
+	GOTINVUL "I feel invulnerable!"
+	GOTBERSERK "I feel like I can punch through the walls!!"
+	GOTINVIS "I'm invisible!"
+	GOTSUIT "This hazmat suit will protect me."
+	GOTMAP "The blueprint of the house!"
+	GOTVISOR "Nightvision goggles. Let's hope the battery's not low..."
+	GOTMSPHERE "I've never felt better!"
+	GOTCLIP "More bullets for my pistol."
+	GOTCLIPBOX "Wow. That's a lot of bullets."
+	GOTROCKET "A rocket."
+	GOTROCKBOX "A box of hand grenades!"
+	GOTCELL "Some fuel."
+	GOTCELLBOX "This is a lot of fuel!"
+	GOTSHELLS "Shotgun shells."
+	GOTSHELLBOX "A box of shotgun shells!"
+	GOTBACKPACK "I can carry some more ammo in this backpack."
+	GOTBFG9000 "What on Earth is this!?"
+	GOTCHAINGUN "An assault rifle!"
+	GOTCHAINSAW "An axe!"
+	GOTLAUNCHER "A hand grenade!"
+	GOTPLASMA "A flamethrower!?"
+	GOTSHOTGUN "A shotgun!"
+	GOTSHOTGUN2 "Nice! A double-barreled shotgun!"
+
+	PD_BLUEO "I need a blue key to activate this."
+	PD_REDO "I need a red key to activate this."
+	PD_YELLOWO "I need a yellow key to activate this."
+	PD_BLUEK "I need a blue key to open this door."
+	PD_REDK "I need a red key to open this door."
+	PD_YELLOWK "I need a yellow key to open this door."
+	PD_BLUEC "I need a blue keycard to open this door."
+	PD_REDC "I need a red keycard to open this door."
+	PD_YELLOWC "I need a yellow keycard to open this door."
+	PD_BLUES "I need a blue skull to open this door."
+	PD_REDS "I need a red skull to open this door."
+	PD_YELLOWS "I need a yellow skull to open this door."
+	PD_ANY "I suppose any key could open this door."
+	PD_ALL3 "This door needs three keys to open."
+	PD_ALL6 "Looks like I need six keys to open this door..."
+
+	STSTR_CHOPPERS "And my axe!"
+}
+
 // Pistol
 weapon 1
 {
@@ -64,7 +123,7 @@ weapon 2
 			SHTG D 2
 			SHTG CAC 7
 			SHTG D 7
-			SHTG E 8 A_WeaponSound ("FRE002",0)
+			SHTG E 8 A_WeaponSound ("FRE000",0)
 			SHTG D 9
 			SHTG C 8
 			SHTG A 4
