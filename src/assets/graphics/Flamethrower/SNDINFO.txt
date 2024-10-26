@@ -1,3 +1,0 @@
-Flamethrower/Fire FMTRFIRE
-Flamethrower/Hit FMTRHIT
-Flamethrower/Flame FMTRFLAM
