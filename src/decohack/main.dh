@@ -37,13 +37,26 @@ ammo 3
 	max 15
 }
 
-// Pipe
+// Axe
 weapon 7
 {
 	States
 	{
+		Ready:
+			SAWG A 1 A_WeaponReady
+			Loop
+		Deselect:
+			SAWG A 1 A_Lower
+			Loop
 		Fire:
-			SAWG A 1 A_WeaponMeleeAttack(6,10,10.0, "SKESWG",33.0)
+			SAWG C 8
+			SAWG B 12
+			SAWG C 1 A_WeaponSound("SKESWG",0)
+			SAWG D 0 A_WeaponMeleeAttack(0,10,10.0, "SAWHIT",88.0)
+			SAWG D 3 A_WeaponMeleeAttack(6,10,10.0, "SAWHIT",88.0)
+			SAWG E 8
+			SAWG D 8
+			Goto Ready
 	}
 }
 

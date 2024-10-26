@@ -7,3 +7,11 @@ RESOURCE CREDITS
 PLAYPAL         DiR
 COLORMAP        DiR
 (from OPal.wad)
+
+
+-= Weapons =-
+
+AXE
+Dehacked: Moustachio
+Sprites: 
+Sounds: Raven Software, lesaucisson
