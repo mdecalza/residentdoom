@@ -189,6 +189,7 @@ thing 151 : thing 34 "Grenade in flight"
 	-NOBLOCKMAP
 	-NOGRAVITY
 	-MISSILE //—does not replicate behavior from hovercab.wad
+	+NOBLOOD
 	+BOUNCES
 
 	States
