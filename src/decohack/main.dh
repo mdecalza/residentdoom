@@ -147,7 +147,7 @@ weapon 1
 		Fire:
 			PISG A 4
 			PISG B 1 Bright A_Light2
-			PISG B 0 A_WeaponSound("PISTOL")
+			PISG B 0 A_WeaponSound("FRE002")
 			PISG B 0 A_ConsumeAmmo
 			PISG B 0 A_WeaponBulletAttack(3.0,3.0,1,12,2)
 			PISG F 5 A_Light0
@@ -269,8 +269,8 @@ weapon 7 "Axe"
 			SAWG C 8
 			SAWG B 12
 			SAWG C 1 A_WeaponSound("SKESWG")
-			SAWG D 0 A_WeaponMeleeAttack(10,3,10.0, "SAWHIT",92.0)
-			SAWG D 3 A_WeaponMeleeAttack(10,3,10.0, "SAWHIT",92.0)
+			SAWG DDDDD 0 A_WeaponMeleeAttack(10,2,10.0, "SAWHIT",92.0)
+			SAWG D 3 A_WeaponMeleeAttack(10,2,10.0, "SAWHIT",92.0)
 			SAWG E 8
 			SAWG D 8
 			Goto Ready
