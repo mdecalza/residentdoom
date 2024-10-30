@@ -14,4 +14,7 @@ map MAP01
 	interbackdrop = "FLAT10"
 
 	endgame = true
+
+	bossaction = clear
+	bossaction = Fatso, 23, 668
 }
