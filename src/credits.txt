@@ -2,6 +2,14 @@ RESIDENT DOOM
 RESOURCE CREDITS
 
 
+-= Music =-
+TITLE SCREEN by Snaxalotl
+LEVEL MUSIC  by Snaxalotl
+(from AB.wad)
+
+TEXT SCREEN  by Bobby Prince
+(from DOOM.wad)
+
 -= Palette =-
 
 PLAYPAL         DiR
