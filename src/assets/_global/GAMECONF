@@ -1,0 +1,18 @@
+{
+  "type": "gameconf",
+  "version": "1.0.0",
+  "metadata": { },
+  "data":
+  {
+    "title": "Resident DOOM",
+    "author": "Moustachio",
+    "description": "A spooky survival horror adventure for Halloween 2024.",
+    "version": "",
+    "iwad": "doom2.wad",
+    "pwadfiles": null,
+    "dehfiles": null,
+    "executable": "mbf21ex",
+	"mode": "commercial",
+    "options": null
+  }
+}

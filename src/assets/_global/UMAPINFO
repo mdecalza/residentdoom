@@ -9,9 +9,9 @@ map MAP01
 	episode = "M_CAMP", "Resident DOOM", "r"
 
 	nointermission = true
-	intertext = "You've escaped the house!"
+	intertext = "Player one wins!"
 	intertextsecret = "You've escaped the house... in an alternate way!"		
-	interbackdrop = "FLAT10"
+	interbackdrop = "HELP2"
 
 	endgame = true
 
