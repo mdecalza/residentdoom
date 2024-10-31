@@ -1,20 +1,31 @@
 ===========================================================================
-Archive Maintainer      : Message to Archive Maintainer, if any.
-Update to               : What is this updating, if anything?
-Advanced engine needed  : Source Port that This is Targeting
-Primary purpose         : Single play / Co-op / Deathmatch / Other
+Advanced engine needed  : MBF21-compatible
+Primary purpose         : Single play
 ===========================================================================
-Title                   : Resident Doom
+Title                   : Doomed Resident
 Filename                : residentdoom.wad
-Release date            : Mnth. Day, Year 
+Release date            : Oct. 31, 2024
 Author                  : Moustachio
-Email Address           : matt534dog@gmail.com (must match uploader)
+Email Address           : matt534dog@gmail.com
 Other Files By Author   : atone.wad, crud.wad
-Misc. Author Info       : Am the project lead of the Interception series.
+Misc. Author Info       : Project lead of the Interception series.
 
-Description             : ADD DESCRIPTION HERE
+Description             : After a terrible car accident, you find yourself in a
+                          spooky mansion looking for help...
 
-Additional Credits to   : ADD'L CREDITS HERE
+                          A single map for DOOM II that plays fairly differently
+                          to your average Doom adventure. This plays more like a
+                          survival horror, with self-resurrecting enemies,
+                          limited ammo, and an emphasis on puzzle solving and
+                          secret hunting.
+
+                          Happy Halloween!
+
+Additional Credits to   : Snaxalotl & Bobby Prince for music, Realm667 for
+                          resources, DiR for OPal, MTrop for DECOHack
+                          & DoomTools, id Software for DOOM II.
+						  Nic and Adam for playtesting.
+                          Check the CREDITS lump for more info!
 ===========================================================================
 * What is included *
 
@@ -23,9 +34,9 @@ Sounds                  : Yes
 Music                   : Yes
 Graphics                : Yes
 Dehacked/BEX Patch      : Yes
-Demos                   : No / Yes
+Demos                   : Yes
 Other                   : UMAPINFO, COMPLVL, GAMECONF
-Other files required    : 
+Other files required    : None
 
 
 * Play Information *
@@ -33,10 +44,10 @@ Other files required    :
 Game                    : Doom 2
 Map #                   : MAP01
 Single Player           : Designed for
-Cooperative 2-4 Player  : Designed for / Player Starts Only
-Deathmatch 2-4 Player   : Designed for / Player Starts Only / No
-Other game styles       : 
-Difficulty Settings     : Not implemented / Yes
+Cooperative 2-4 Player  : Player Starts Only
+Deathmatch 2-4 Player   : No
+Other game styles       : Not sure
+Difficulty Settings     : Yes
 
 
 * Construction *
@@ -44,45 +55,12 @@ Difficulty Settings     : Not implemented / Yes
 Base                    : New from scratch
 Build Time              : 7 days
 Editor(s) used          : DoomMake, DECOHack, SLADE, Ultimate Doom Builder
-Known Bugs              : None OR List bugs here...
+Known Bugs              : None (that I know of)
 May Not Run With        : Any non-MBF21-compatible source port
-Tested With             : DSDA-Doom 0.27.5
+Tested With             : DSDA-Doom 0.27.5, KEX Engine
 
 
 * Copyright / Permissions *
-
-              !!! PICK ONE OF THE FOLLOWING SECTIONS !!!
-
-[[[ ---- Allow Adaptation and Distribution ---- ]]]
-
-This work is licensed under the Creative Commons Attribution 4.0
-International License. To view a copy of this license, visit
-https://creativecommons.org/licenses/by/4.0/
-
-You are free to copy and redistribute the material in any medium or format;
-and remix, transform, and build upon the material for any purpose, even
-commercially. If you do so, you must give appropriate credit, provide a link
-to the license, and indicate if changes were made. You may do so in any
-reasonable manner, but not in any way that suggests the licensor endorses you
-or your use.
-
-
-[[[ ---- Allow Adaptation and Distribution, but NOT Commercially ----- ]]]
-
-This work is licensed under the Creative Commons Attribution-NonCommercial 
-4.0 International License. To view a copy of this license, visit
-https://creativecommons.org/licenses/by-nc/4.0/
-
-You are free to copy and redistribute the material in any medium or format
-for any purpose, EXCEPT commercially. If you do so, you must give appropriate
-credit, provide a link to the license, and indicate if changes were made. You
-may do so in any reasonable manner, but not in any way that suggests the
-licensor endorses you or your use. You may NOT use the material for commercial
-purposes. If you remix, transform, or build upon the material, you may 
-distribute the modified material.
-
-
-[[[ ---- Allow Adaptation and Distribution and Enforce License Inheritance ----- ]]]
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 International License. To view a copy of this license, visit
@@ -95,51 +73,6 @@ to the license, and indicate if changes were made. You may do so in any
 reasonable manner, but not in any way that suggests the licensor endorses you
 or your use. If you remix, transform, or build upon the material, you MUST
 distribute your contributions under the same license as the original.
-
-
-[[[ ---- Allow Adaptation and Distribution, but NOT Commercially, and Enforce License Inheritance ----- ]]]
-
-This work is licensed under the Creative Commons Attribution-NonCommercial-
-ShareAlike 4.0 International License. To view a copy of this license, visit
-https://creativecommons.org/licenses/by-nc-sa/4.0/
-
-You are free to copy and redistribute the material in any medium or format;
-and remix, transform, and build upon the material for any purpose, EXCEPT
-commercially. If you do so, you must give appropriate credit, provide a link
-to the license, and indicate if changes were made. You may do so in any
-reasonable manner, but not in any way that suggests the licensor endorses you
-or your use. You may NOT use the material for commercial purposes. If you 
-remix, transform, or build upon the material, you MUST distribute your 
-contributions under the same license as the original.
-
-
-[[[ ---- Disallow Release of Further Adaptations ----- ]]]
-
-This work is licensed under the Creative Commons Attribution-NoDerivatives
-4.0 International License. To view a copy of this license, visit
-https://creativecommons.org/licenses/by-nd/4.0/
-
-You are free to copy and redistribute the material in any medium or format
-for any purpose, even commercially. If you do so, you must give appropriate
-credit, provide a link to the license, and indicate if changes were made. You
-may do so in any reasonable manner, but not in any way that suggests the
-licensor endorses you or your use.  If you remix, transform, or build upon
-the material, you may NOT distribute the modified material.
-
-
-[[[ ---- Disallow Release of Further Adaptations plus Forbid Commercial Distribution ----- ]]]
-
-This work is licensed under the Creative Commons Attribution-NonCommercial-
-NoDerivatives 4.0 International License. To view a copy of this license, visit
-https://creativecommons.org/licenses/by-nc-nd/4.0/
-
-You are free to copy and redistribute the material in any medium or format
-for any purpose, EXCEPT commercially. If you do so, you must give appropriate
-credit, provide a link to the license, and indicate if changes were made. You
-may do so in any reasonable manner, but not in any way that suggests the
-licensor endorses you or your use. You may NOT use the material for commercial
-purposes. If you remix, transform, or build upon the material, you may NOT 
-distribute the modified material.
 
 
 * Where to get the file that this text file describes *
