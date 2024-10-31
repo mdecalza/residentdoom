@@ -9,12 +9,25 @@ map MAP01
 	episode = "M_CAMP", "Resident DOOM", "r"
 
 	nointermission = true
-	intertext = "Player one wins!"
-	intertextsecret = "You've escaped the house... in an alternate way!"		
-	interbackdrop = "HELP2"
+	intertext = "You've escaped the demon house",
+		"of which the residents were evil.",
+		"",
+		"The house seemed to be hiding some",
+		"sort of bioengineering scheme.",
+		"You bet it's that dastardly Raincoat",
+		"Corporation again.",
+		"",
+		"You've got to warn the public.",
+		"It's a long walk home, but",
+		"hopefully it's a quiet one..."
+	intertextsecret = "I love you, Nic!!!!!!! <3"		
+	interbackdrop = "TEXTPIC"
 
 	endgame = true
 
 	bossaction = clear
 	bossaction = Fatso, 23, 668
+	bossaction = Cyberdemon, 103, 669
+	bossaction = HellKnight, 103, 669
+	bossaction = BaronOfHell, 103, 669
 }

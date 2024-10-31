@@ -3,12 +3,18 @@ RESOURCE CREDITS
 
 
 -= Music =-
-TITLE SCREEN by Snaxalotl
-LEVEL MUSIC  by Snaxalotl
+
+TITLE SCREEN "Outer Plane" by Snaxalotl
+LEVEL MUSIC  "Thresholds Beyond" by Snaxalotl
 (from AB.wad)
 
-TEXT SCREEN  by Bobby Prince
+TEXT SCREEN  "The End of DOOM" by Bobby Prince
 (from DOOM.wad)
+
+-= Sound FX =-
+
+DSWPNUP         Moustachio
+
 
 -= Palette =-
 
@@ -17,9 +23,51 @@ COLORMAP        DiR
 (from OPal.wad)
 
 
+-= Graphics =-
+
+TITLEPIC        Moustachio
+CREDIT          Moustachio
+
+
 -= Weapons =-
 
+FIST
+DECOHack: Moustachio
+Sprites: id Software
+Sounds: id Software
+
 AXE
-Dehacked: Moustachio
-Sprites: 
-Sounds: Raven Software, lesaucisson
+DECOHack: Moustachio
+Sprites: Mike12, scalliano, idgamer
+Sounds: Rogue, 3D Realms, lesaucisson, id Software
+
+PISTOL
+DECOHack: Moustachio
+Sprites: JoeyTD, id Software, 3D Realms
+Sounds: id Software, Moustachio
+
+SHOTGUN
+DECOHack: Moustachio
+Sprites: 3D Realms, Eurocom, Xim, Dzierzan, Fox, Gothic
+Sounds: Dudukrazy, Moustachio
+
+HAND GRENADES
+DECOHack: Moustachio
+Sprites: Lobotomy Software, NeoWorm, Moustachio
+Sounds: Lobotomy Software, id Software
+
+
+-= Miscellaneous =-
+
+DECOHack        Moustachio
+MAP01           Moustachio
+
+Text            eevee
+(using Doom Text Generator)
+c.eev.ee/doom-text-generator/
+
+
+-= Beta Playtesting =-
+
+Adam R.
+Nic R. <3
