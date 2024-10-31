@@ -3,7 +3,7 @@ Advanced engine needed  : MBF21-compatible
 Primary purpose         : Single play
 ===========================================================================
 Title                   : Doomed Resident
-Filename                : residentdoom.wad
+Filename                : doomresident.wad
 Release date            : Oct. 31, 2024
 Author                  : Moustachio
 Email Address           : matt534dog@gmail.com
