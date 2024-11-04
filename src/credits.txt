@@ -25,6 +25,7 @@ COLORMAP        DiR
 
 -= Graphics =-
 
+ENDOOM          Peccatum Mihzamiz
 TITLEPIC        Moustachio
 CREDIT          Moustachio
 
