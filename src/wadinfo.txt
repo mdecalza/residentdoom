@@ -27,18 +27,13 @@ Additional Credits to   : Snaxalotl & Bobby Prince for music, Realm667 for
 						  Nic and Adam for playtesting.
                           Check the CREDITS lump for more info!
 ===========================================================================
-* Version 1.0.1 *
+* Version 1.0.0 *
 
 - The ending now returns you to the title screen in DOOM + DOOM II.
 - Fixed a glitch with the hand grenade spawning code in some source ports.
 - The cacodemon outside now faces the house when spawning in.
 - Moved the switch on the upstairs dresser to the middle.
 - Rerecorded all 3 demos.
-
-
-* Version 1.0.0 *
-
-- Initial Release
 
 
 * What is included *
