@@ -188,7 +188,7 @@ thing 151 : thing 34 "Grenade in flight"
 	+SHOOTABLE
 	-NOBLOCKMAP
 	-NOGRAVITY
-	-MISSILE //—does not replicate behavior from hovercab.wad
+	-MISSILE //Â—does not replicate behavior from hovercab.wad
 	+NOBLOOD
 	+BOUNCES
 	// +TOUCHY
@@ -203,9 +203,11 @@ thing 151 : thing 34 "Grenade in flight"
 			SP00 C 5
 			Goto Death
 		Death:
-			MISL B 0 Bright A_PlaySound("BAREXP")
-			MISL B 0 Bright A_NoiseAlert
-			MISL B 8 Bright A_RadiusDamage(192,256)
+			MISL B 8 Bright {
+				A_PlaySound("BAREXP")
+				A_NoiseAlert
+				A_RadiusDamage(192,256)
+			}
 			MISL C 6 Bright
 			MISL D 4 Bright
 			Stop
@@ -217,13 +219,13 @@ thing 151 : thing 34 "Grenade in flight"
 // which prevents the grenade from bouncing around before exploding.
 thing 152 : thing 34 "Magic grenade spawner"
 {
+	// Flags
+	+NOBLOCKMAP
+
 	States
 	{
 		Spawn:
 			SP00 A 0
-			SP00 A 0 A_SpawnObject(151,-90.0,0.0,0.0,0.0,-0.5,25.0,5.0)
-			Stop
-		Death:
 			SP00 A 0 A_SpawnObject(151,-90.0,0.0,0.0,0.0,-0.5,25.0,5.0)
 			Stop
 	}

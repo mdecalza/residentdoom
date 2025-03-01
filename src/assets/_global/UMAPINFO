@@ -6,7 +6,7 @@ map MAP01
 	partime = 0
 
 	episode = clear
-	episode = "M_CAMP", "Resident DOOM", "r"
+	episode = "M_CAMP", "DOOMed Resident", "r"
 
 	nointermission = true
 	intertext = "You've escaped the demon house",
@@ -24,6 +24,7 @@ map MAP01
 	interbackdrop = "TEXTPIC"
 
 	endgame = true
+	endpic = "CREDIT"
 
 	bossaction = clear
 	bossaction = Fatso, 23, 668
