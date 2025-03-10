@@ -6,7 +6,6 @@ Title                   : Doomed Resident
 Filename                : doomresident.wad
 Release date            : Oct. 31, 2024
 Author                  : Moustachio
-Email Address           : matt534dog@gmail.com
 Other Files By Author   : atone.wad, crud.wad
 Misc. Author Info       : Project lead of the Interception series.
 
