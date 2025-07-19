@@ -39,7 +39,7 @@ Sounds: id Software
 
 AXE
 DECOHack: Moustachio
-Sprites: Mike12, scalliano, idgamer
+Sprites: Neoworm
 Sounds: Rogue, 3D Realms, lesaucisson, id Software
 
 PISTOL
