@@ -26,6 +26,10 @@ Additional Credits to   : Snaxalotl & Bobby Prince for music, Realm667 for
 						  Nic and Adam for playtesting.
                           Check the CREDITS lump for more info!
 ===========================================================================
+* Version 1.0.1 *
+
+- Replaced axe sprites with Neoworm's widescreen axe sprites from Heartland.
+
 * Version 1.0.0 *
 
 - The ending now returns you to the title screen in DOOM + DOOM II.
@@ -65,7 +69,7 @@ Build Time              : 7 days
 Editor(s) used          : DoomMake, DECOHack, SLADE, Ultimate Doom Builder
 Known Bugs              : None (that I know of)
 May Not Run With        : Any non-MBF21-compatible source port
-Tested With             : DSDA-Doom 0.27.5, KEX Engine
+Tested With             : DSDA-Doom 0.29.0, KEX Engine
 
 
 * Copyright / Permissions *
