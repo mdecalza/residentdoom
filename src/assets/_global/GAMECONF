@@ -7,7 +7,7 @@
     "title": "DOOMed Resident",
     "author": "Moustachio",
     "description": "A spooky survival horror adventure for Halloween 2024.",
-    "version": "",
+    "version": "1.0.2",
     "iwad": "doom2.wad",
     "pwadfiles": null,
     "dehfiles": null,
