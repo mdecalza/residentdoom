@@ -414,7 +414,7 @@ thing 151 : thing 34 "Grenade in flight"
 			MISL B 8 Bright {
 				A_PlaySound("BAREXP")
 				A_NoiseAlert
-				A_RadiusDamage(192,256)
+				A_RadiusDamage(640,256)
 			}
 			MISL C 6 Bright
 			MISL D 4 Bright
