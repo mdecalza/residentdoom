@@ -26,6 +26,19 @@ Additional Credits to   : Snaxalotl & Bobby Prince for music, Realm667 for
 						  Nic and Adam for playtesting.
                           Check the CREDITS lump for more info!
 ===========================================================================
+* Version 1.0.4 *
+- Fixed broken ending on Easy difficulty.
+- Changed ending Hell Knights on Easy difficulty to Barons of Hell.
+- Changed horizon effects from ZDoom/Eternity to ZokumBSP/ZDoom.
+- Added flaming car detail.
+- Added doorbell sound.
+
+* Version 1.0.3 *
+- Increased hand grenade explosion damage.
+
+* Version 1.0.2 *
+- Specified DECOHack ammo type fields for all weapons.
+
 * Version 1.0.1 *
 
 - Replaced axe sprites with Neoworm's widescreen axe sprites from Heartland.

@@ -381,8 +381,8 @@ thing 34 "Magic grenade spawner"
 	States
 	{
 		Spawn:
-			SP00 A 0
-			SP00 A 0 A_SpawnObject(151,-90.0,-10.0,0.0,0.0,-0.5,25.0,5.0)
+			TNT1 A 1
+			TNT1 A 0 A_SpawnObject(151,-90.0,-10.0,0.0,0.0,-0.5,25.0,5.0)
 			Stop
 	}
 }
@@ -390,13 +390,13 @@ thing 34 "Magic grenade spawner"
 // An actual grenade which will bounce around the map before detonating.
 thing 151 : thing 34 "Grenade in flight"
 {
-	Health 5
-	Mass 256
+	health 5
+	mass 256
 
 	+SHOOTABLE
 	-NOBLOCKMAP
 	-NOGRAVITY
-	-MISSILE //does not replicate behavior from hovercab.wad
+	-MISSILE // does not replicate behavior from hovercab.wad
 	+NOBLOOD
 	+BOUNCES
 	// +TOUCHY
@@ -418,6 +418,29 @@ thing 151 : thing 34 "Grenade in flight"
 			}
 			MISL C 6 Bright
 			MISL D 4 Bright
+			Stop
+	}
+}
+
+thing 152 "Doorbell (broken)"
+{
+	ednum 6666
+
+	health 1
+	radius 8
+	height 32
+	painchance 0
+	mass 10000
+
+	+SHOOTABLE
+
+	States
+	{
+		Spawn:
+			TNT1 A -1
+			Stop
+		Death:
+			TNT1 A 1 A_PlaySound("FRE003", 1)
 			Stop
 	}
 }
