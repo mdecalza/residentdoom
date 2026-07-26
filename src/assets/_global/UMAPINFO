@@ -29,6 +29,5 @@ map MAP01
 	bossaction = clear
 	bossaction = Fatso, 23, 668
 	bossaction = Cyberdemon, 103, 669
-	bossaction = HellKnight, 103, 669
 	bossaction = BaronOfHell, 103, 669
 }

@@ -14,6 +14,7 @@ TEXT SCREEN  "The End of DOOM" by Bobby Prince
 -= Sound FX =-
 
 DSWPNUP         Moustachio
+DSFRE003        muy2149972, Moustachio
 
 
 -= Palette =-
